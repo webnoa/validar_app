@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "153595979206",
+    "firebase_url": "https://validar-app.firebaseio.com",
+    "project_id": "validar-app",
+    "storage_bucket": "validar-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153595979206:android:579a7ad44ef0ae37d8fec7",
+        "android_client_info": {
+          "package_name": "ar.com.webnoa.consultamedicaonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153595979206-3jr80klmuv6veuue0vhh6optmrjp2noq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9J6bKE8g8SckR3YVKo3acLFMMfdR2xZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153595979206-3jr80klmuv6veuue0vhh6optmrjp2noq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153595979206:android:961475b9884c92b0d8fec7",
+        "android_client_info": {
+          "package_name": "ar.com.webnoa.validar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153595979206-3jr80klmuv6veuue0vhh6optmrjp2noq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9J6bKE8g8SckR3YVKo3acLFMMfdR2xZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153595979206-3jr80klmuv6veuue0vhh6optmrjp2noq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153595979206:android:6003e9793900e58ad8fec7",
+        "android_client_info": {
+          "package_name": "ar.com.webnoa.validar_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153595979206-3jr80klmuv6veuue0vhh6optmrjp2noq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9J6bKE8g8SckR3YVKo3acLFMMfdR2xZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153595979206-3jr80klmuv6veuue0vhh6optmrjp2noq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
