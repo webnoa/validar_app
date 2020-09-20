@@ -8,12 +8,14 @@ import 'package:validar_app/authentication_service.dart';
 import 'package:validar_app/home_page.dart';
 import 'package:validar_app/sign_in_page.dart';
 
+//Prueba
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   runApp(MyApp());
 }
 
+//Prueba
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -39,6 +41,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
+//Prueba
 class AuthenticationWrapper extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
