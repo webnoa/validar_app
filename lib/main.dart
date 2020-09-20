@@ -8,7 +8,7 @@ import 'package:validar_app/authentication_service.dart';
 import 'package:validar_app/home_page.dart';
 import 'package:validar_app/sign_in_page.dart';
 
-//Prueba
+//Prueba.
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();

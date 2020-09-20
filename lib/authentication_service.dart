@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 
-//Prueba
+//Prueba.
 class AuthenticationService {
   final FirebaseAuth _firebaseAuth;
 //Prueba
@@ -12,7 +12,7 @@ class AuthenticationService {
     await _firebaseAuth.signOut();
   }
 
-//Prueba
+//Prueba.
   Future<String> signIn({String email, String password}) async {
     try {
       await _firebaseAuth.signInWithEmailAndPassword(
@@ -23,7 +23,7 @@ class AuthenticationService {
     }
   }
 
-//Prueba
+//Prueba.
   Future<String> signUp({String email, String password}) async {
     try {
       await _firebaseAuth.createUserWithEmailAndPassword(

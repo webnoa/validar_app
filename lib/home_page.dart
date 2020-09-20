@@ -4,7 +4,7 @@ import 'package:provider/provider.dart';
 
 import 'package:validar_app/authentication_service.dart';
 
-//Prueba
+//Prueba.
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
