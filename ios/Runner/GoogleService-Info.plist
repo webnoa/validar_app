@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>153595979206-v33d8d3g1f169e4nmijajl3qn771jjo4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.153595979206-v33d8d3g1f169e4nmijajl3qn771jjo4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBXwRwWhac5s8x_JFalYoFiuMvmLweYnAA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>153595979206</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ar.com.webnoa.validarapp</string>
+	<key>PROJECT_ID</key>
+	<string>validar-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>validar-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:153595979206:ios:21f95caa96e4cb86d8fec7</string>
+	<key>DATABASE_URL</key>
+	<string>https://validar-app.firebaseio.com</string>
+</dict>
+</plist>
