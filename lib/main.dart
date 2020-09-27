@@ -53,9 +53,14 @@ class MyApp extends StatelessWidget {
           }
 
           return Scaffold(
-            appBar: AppBar(),
+            //appBar: AppBar(),
+            backgroundColor: Colors.blueAccent,
             body: Container(
-              child: Center(child: Text("Loading")),
+              child: Center(
+                  child: Text(
+                "Espere...",
+                style: TextStyle(color: Colors.white),
+              )),
             ),
           );
         },
