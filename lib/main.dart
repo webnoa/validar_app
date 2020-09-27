@@ -34,10 +34,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: ThemeData(
-        primaryColor: Color(0xff6a515e),
-        cursorColor: Color(0xff6a515e),
-      ),
+      theme: buildThemeData(),
       home: BlocBuilder<AuthenticationBloc, AuthenticationState>(
         builder: (context, state) {
           if (state is AuthenticationFailure) {
@@ -65,6 +62,18 @@ class MyApp extends StatelessWidget {
           );
         },
       ),
+    );
+  }
+
+  ThemeData buildThemeData() {
+    return ThemeData(
+      primaryColor: Colors.white,
+      cursorColor: Colors.white,
+      inputDecorationTheme: const InputDecorationTheme(
+        labelStyle: TextStyle(color: Colors.white60),
+        hintStyle: TextStyle(color: Colors.white60),
+      ),
+      errorColor: Colors.orangeAccent,
     );
   }
 }

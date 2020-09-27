@@ -26,11 +26,13 @@ class HomeScreen extends StatelessWidget {
       ),
       body: Column(
         children: <Widget>[
-          Center(
-            child: CircularProgressIndicator(),
-          ),
+          SizedBox(height: 10),
           Center(
             child: Text("Hello, ${user.email}"),
+          ),
+          SizedBox(height: 10),
+          Center(
+            child: CircularProgressIndicator(),
           )
         ],
       ),

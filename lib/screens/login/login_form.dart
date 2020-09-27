@@ -4,7 +4,7 @@ import 'package:validar_app/blocs/login_bloc/login_bloc.dart';
 import 'package:validar_app/blocs/login_bloc/login_event.dart';
 import 'package:validar_app/blocs/login_bloc/login_state.dart';
 import 'package:validar_app/repositories/user_repository.dart';
-import 'package:validar_app/screens/register/register_screen.dart';
+//import 'package:validar_app/screens/register/register_screen.dart';
 import 'package:validar_app/widgets/gradient_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -57,7 +57,7 @@ class _LoginFormState extends State<LoginForm> {
                     Icon(Icons.error),
                   ],
                 ),
-                backgroundColor: Color(0xffffae88),
+                backgroundColor: Color(0xff0d47a1),
               ),
             );
         }
@@ -76,7 +76,7 @@ class _LoginFormState extends State<LoginForm> {
                     )
                   ],
                 ),
-                backgroundColor: Color(0xffffae88),
+                backgroundColor: Color(0xff0d47a1),
               ),
             );
         }
@@ -104,7 +104,7 @@ class _LoginFormState extends State<LoginForm> {
                     autovalidate: true,
                     autocorrect: false,
                     validator: (_) {
-                      return !state.isEmailValid ? 'Invalid Email' : null;
+                      return !state.isEmailValid ? 'Email Invalido' : null;
                     },
                   ),
                   TextFormField(
@@ -114,17 +114,20 @@ class _LoginFormState extends State<LoginForm> {
                       labelText: "Password",
                     ),
                     obscureText: true,
+                    keyboardType: TextInputType.number,
                     autovalidate: true,
                     autocorrect: false,
                     validator: (_) {
-                      return !state.isPasswordValid ? 'Invalid Password' : null;
+                      return !state.isPasswordValid
+                          ? 'Password Invalido'
+                          : null;
                     },
                   ),
                   SizedBox(
                     height: 10,
                   ),
                   GradientButton(
-                    width: 150,
+                    width: 200,
                     height: 45,
                     onPressed: () {
                       if (isButtonEnabled(state)) {
@@ -145,7 +148,7 @@ class _LoginFormState extends State<LoginForm> {
                   SizedBox(
                     height: 10,
                   ),
-                  GradientButton(
+                  /* GradientButton(
                     width: 150,
                     height: 45,
                     onPressed: () {
@@ -165,7 +168,7 @@ class _LoginFormState extends State<LoginForm> {
                       Icons.arrow_forward,
                       color: Colors.white,
                     ),
-                  ),
+                  ), */
                 ],
               ),
             ),

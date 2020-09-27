@@ -28,7 +28,7 @@ class LoginScreen extends StatelessWidget {
               gradient: LinearGradient(
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
-            colors: [Color(0xfff2cbd0), Color(0xfff4ced9)],
+            colors: [Color(0xff01579b), Color(0xff01579b)],
           )),
           child: SingleChildScrollView(
             child: Stack(
@@ -42,14 +42,17 @@ class LoginScreen extends StatelessWidget {
                       gradient: LinearGradient(
                         begin: Alignment.topCenter,
                         end: Alignment.bottomCenter,
-                        colors: [Colors.white, Colors.white.withOpacity(0.4)],
+                        colors: [
+                          Colors.lightBlue,
+                          Colors.white.withOpacity(0.4)
+                        ],
                       ),
                     ),
                     child: Text(
-                      'Login',
+                      'BIENVENIDO',
                       style: TextStyle(
                         fontSize: 40,
-                        color: Color(0xff6a515e),
+                        color: Colors.white,
                       ),
                     ),
                   ),
