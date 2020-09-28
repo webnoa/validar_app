@@ -67,7 +67,7 @@ class MyApp extends StatelessWidget {
 
   ThemeData buildThemeData() {
     return ThemeData(
-      primaryColor: Colors.white,
+      primaryColor: Colors.blueAccent,
       cursorColor: Colors.white,
       inputDecorationTheme: const InputDecorationTheme(
         labelStyle: TextStyle(color: Colors.white60),

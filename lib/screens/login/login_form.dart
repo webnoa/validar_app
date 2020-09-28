@@ -10,10 +10,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class LoginForm extends StatefulWidget {
-  final UserRepository _userRepository;
+  final UserRepository userRepository;
 
   const LoginForm({Key key, UserRepository userRepository})
-      : _userRepository = userRepository,
+      : userRepository = userRepository,
         super(key: key);
 
   @override
